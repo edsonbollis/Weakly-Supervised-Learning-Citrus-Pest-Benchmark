@@ -7,7 +7,7 @@ Multi-Instance Learning code presents a way to classify tiny regions of interest
 Saliency Maps (Patch-SaliMap) and a Weighted Evaluation
 Method.
 
-![Mite Images](https://github.com/edsonbollis/Weakly-Supervised-Learning-Citrus-Pest-Benchmark/blob/master/mites.png)
+![Mite Images](https://github.com/edsonbollis/Weakly-Supervised-Learning-Citrus-Pest-Benchmark/blob/master/pipeline_transfer_learning.png)
 
 Our method consists of four steps. In Step 1, we train a CNN (initially trained on the ImageNet) on the Citrus
 Pest Benchmark. In Step 2, we automatically generate multiple patches regarding saliency maps. In Step 3, we fine-tune our
