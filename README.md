@@ -4,7 +4,7 @@ This project contains the source code described in 'Weakly supervised learning g
 
 This code is an example of how to use Grad-CAM to produce instances for a multiple instance learning method. It uses the [Citrus Pest Benchmark](https://github.com/edsonbollis/Citrus-Pest-Benchmark) in the training process. The weakly supervised multi-instance learning code presents a way to classify tiny regions of interest (ROIs) through a convolutional neural network, a selection strategy based on saliency maps, and a weighted evaluation method.
 
-![Mite Images](https://github.com/edsonbollis/Weakly-Supervised-Learning-Citrus-Pest-Benchmark/blob/master/pipeline_transfer_learning.png)
+![Mite Images](https://github.com/edsonbollis/Weakly-Supervised-Learning-Citrus-Pest-Benchmark/blob/master/pipeline.png)
 
 Our method consists of four steps. In Step 1, we train a CNN (initially trained on the ImageNet) on the Citrus
 Pest Benchmark. In Step 2, we automatically generate multiple patches regarding saliency maps. In Step 3, we fine-tune our
