@@ -1,6 +1,6 @@
 ## Weakly Supervised Learning Guided by Activation Mapping Applied to a Novel Citrus Pest Benchmark
 
-This project contains the source code described in 'Weakly supervised learning guided by activation mapping applied to a novel citrus pest benchmark.' This [work](https://arxiv.org/pdf/2004.11252.pdf) was published in Agriculture-Vision Workshop @ CVPR 2020.
+This project contains the source code described in 'Weakly supervised learning guided by activation mapping applied to a novel citrus pest benchmark.' This [work](https://arxiv.org/pdf/2004.11252.pdf) was published in [Agriculture-Vision Workshop](https://github.com/SHI-Labs/Agriculture-Vision)) @ CVPR 2020.
 
 This code is an example of how to use Grad-CAM to produce instances for a multiple instance learning method. It uses the [Citrus Pest Benchmark](https://github.com/edsonbollis/Citrus-Pest-Benchmark) in the training process. The weakly supervised multi-instance learning code presents a way to classify tiny regions of interest (ROIs) through a convolutional neural network, a selection strategy based on saliency maps, and a weighted evaluation method.
 
