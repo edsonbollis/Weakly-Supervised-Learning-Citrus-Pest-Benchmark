@@ -13,11 +13,11 @@ evaluation scheme to predict the image class.
 
 ### Tutorial
 
-Use the code 'train_efficientnet_binary_1200.py' and change the 'prefix' variable for the correct dataset path to generate the Bag Models (if you do nothing in the source, it will train five folds). The code in 'avaliate_efficientnet_binary_1200.py' evaluates the Bag Models (use 'avaliate_efficientnet_binary_1200.py run_x' to evaluate x^th fold).
+Use the code `train_efficientnet_binary_1200.py` and change the `prefix` variable for the correct dataset path to generate the Bag Models (if you do nothing in the source, it will train five folds). The code in `avaliate_efficientnet_binary_1200.py` evaluates the Bag Models (use `avaliate_efficientnet_binary_1200.py run_x` to evaluate xth fold).
 
-Use the code 'instance-database-generator.py' and change the variables 'weights' and 'prefix' to create the patches for the Instance Dataset.
+Use the code `instance-database-generator.py` and change the variables `weights` and `prefix` to create the patches for the Instance Dataset.
 
-Use the code 'train_efficientnet_binary_cutted_train_all.py' and change the 'prefix' to generate the Instance Models (if you do nothing, it will train five folds). The code in 'avaliate_efficientnet_test_binary_1200_cutted.py' evaluates the Instance Models (use 'avaliate_efficientnet_test_binary_1200_cutted.py run_x' to evaluate xth fold).
+Use the code `train_efficientnet_binary_cutted_train_all.py` and change the `prefix` to generate the Instance Models (if you do nothing, it will train five folds). The code in `avaliate_efficientnet_test_binary_1200_cutted.py` evaluates the Instance Models (use `avaliate_efficientnet_test_binary_1200_cutted.py run_x` to evaluate xth fold).
 
 
 ### Citation
