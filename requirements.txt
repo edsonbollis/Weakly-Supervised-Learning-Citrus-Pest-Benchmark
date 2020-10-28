@@ -1,7 +1,7 @@
 absl-py==0.7.1
 asn1crypto==0.24.0
 astor==0.8.0
-cryptography==2.3
+cryptography==3.2
 cycler==0.10.0
 decorator==4.4.2
 gast==0.2.2
